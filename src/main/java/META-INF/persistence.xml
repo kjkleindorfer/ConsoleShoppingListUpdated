@@ -5,8 +5,12 @@
 		<class>model.ListItem</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/shopping"/>
+			 <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/shopping"/>
 			<property name="javax.persistence.jdbc.user" value="root"/>
+			
+			<!-- <property name="javax.persistence.jdbc.url" value="jdbc:mysql://cis175.cxteoq2crmls.us-east-1.rds.amazonaws.com:3306/shopping"/>
+			<property name="javax.persistence.jdbc.user" value="admin"/>
+			-->
 			<property name="javax.persistence.jdbc.password" value="password"/>
 			<property name="eclipselink.ddl-generation" value="create-tables"/>
 		</properties>
